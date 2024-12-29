@@ -1,46 +1,71 @@
-# TraveluBackend
+---
+cover: https://gitbookio.github.io/onboarding-template-images/header.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
-This app was created with Bootify.io - tips on working with the code [can be found here](https://bootify.io/next-steps/).
+# Selamat Datang
 
-## Development
+Travel-U merupakan sebuah aplikasi berbasis web yang dirancang untuk memudahkan pengguna dalam merencanakan perjalanan wisata secara efisien dan terorganisir.&#x20;
 
-Update your local database connection in `application.yml` or create your own `application-local.yml` file to override
-settings for development.
 
-During development it is recommended to use the profile `local`. In IntelliJ `-Dspring.profiles.active=local` can be
-added in the VM options of the Run Configuration after enabling this property in "Modify options".
 
-Lombok must be supported by your IDE. For IntelliJ install the Lombok plugin and enable annotation processing -
-[learn more](https://bootify.io/next-steps/spring-boot-with-lombok.html).
+## Apa yang Kami fasilitasi?
 
-After starting the application it is accessible under `localhost:8080`.
+Aplikasi Travel-U memberikan berbagai kemudahan untuk membantu anda merencanakan perjalanan anda.
 
-## Build
+Ada pula fitur yang kami berikan antara lain adalah:
 
-The application can be built using the following command:
+* **Pemesanan Tiket  -** Membantu anda dalam memesan Tiket untuk bepergian menuju suatu destinasi
+* **Melihat Jadwal Keberangkatan** - Mempermudah dalam melihat Jadwal Keberangkatan yang terdaftar pada waktu tertentu
+* **Rekomendasi Itinerari -** Memberikan&#x20;
+* **Feedback** - Memberikan Masukan lorem Ipsum
+* **Pengingat Jadwal**
 
-```
-gradlew clean build
-```
 
-Start your application with the following command - here with the profile `production`:
 
-```
-java -Dspring.profiles.active=production -jar ./build/libs/travelu-backend-0.0.1-SNAPSHOT.jar
-```
+## _Obselete_
 
-If required, a Docker image can be created with the Spring Boot plugin. Add `SPRING_PROFILES_ACTIVE=production` as
-environment variable when running the container.
 
-```
-gradlew bootBuildImage --imageName=travelu/travelu-backend
-```
 
-## Further readings
+Aplikasi ini menyediakan berbagai fitur, seperti pencarian travel wisata, pemesanan tiket, hingga pengelolaan itinerary, yang semuanya dapat diakses melalui antarmuka yang ramah pengguna. Dengan Travel-U, pengguna dapat menikmati kemudahan dalam membandingkan harga, mendapatkan rekomendasi tempat wisata populer, serta mengatur jadwal perjalanan secara fleksibel. Panduan ini bertujuan untuk membantu pengguna memahami dan memanfaatkan fitur-fitur yang tersedia pada Travel-U agar pengalaman perjalanan menjadi lebih menyenangkan dan bebas kendala.
 
-* [Gradle user manual](https://docs.gradle.org/)  
-* [Spring Boot reference](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)  
-* [Spring Data JPA reference](https://docs.spring.io/spring-data/jpa/reference/jpa.html)
-* [Thymeleaf docs](https://www.thymeleaf.org/documentation.html)  
-* [Bootstrap docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)  
-* [Learn Spring Boot with Thymeleaf](https://www.wimdeblauwe.com/books/taming-thymeleaf/)  
+<figure><img src=".gitbook/assets/Salinan dari Blue Yellow Simple Tour And Travel Logo (1).png" alt="" width="125"><figcaption><p>Gambar Logo Travel-U</p></figcaption></figure>
+
+Dengan Travel-U, pengguna dapat menikmati kemudahan dalam membandingkan harga, mendapatkan rekomendasi tempat wisata populer, serta mengatur jadwal perjalanan secara fleksibel. Panduan ini bertujuan untuk membantu pengguna memahami dan memanfaatkan fitur-fitur yang tersedia pada Travel-U agar pengalaman perjalanan menjadi lebih menyenangkan dan bebas kendala.
+
+### A. Pengguna Website Travel-U
+
+Pengguna Travel-U pastinya merupakan individu yang membutuhkan kemudahan dalam perjalanan wisata, mulai dari wisatawan perorangan hingga kelompok, baik untuk tujuan rekreasi, bisnis, maupun edukasi. Aplikasi ini dirancang untuk berbagai kalangan, termasuk pelancong pemula yang membutuhkan panduan lengkap, hingga traveler berpengalaman yang mencari solusi praktis untuk mengatur jadwal dan pemesanan perjalanan.
+
+### B.  Spesifikasi Teknis Penggunaan Travel-U
+
+**1. Perangkat Keras:**
+
+* **Komputer Desktop atau Laptop**
+  * Prosesor: Dual-core atau lebih baik.
+  * RAM: Minimal 2 GB.
+  * Sistem Operasi: Windows 10, macOS, atau distribusi Linux yang umum digunakan.
+* **Perangkat Seluler**
+  * Smartphone atau tablet dengan sistem operasi yang didukung.
+  * Android: Minimal versi 5.0 atau lebih baru.
+  * iOS: Minimal versi 11 atau lebih baru.
+
+**2. Browser:**\
+Disarankan menggunakan browser web terbaru seperti Google Chrome, Mozilla Firefox, Safari, atau Microsoft Edge untuk memastikan kompatibilitas dan kinerja optimal.
+
+**3. Koneksi Internet:**\
+Diperlukan koneksi internet yang stabil untuk pengalaman akses yang lancar, terutama saat menggunakan fitur seperti pencarian destinasi dan pemesanan tiket.
