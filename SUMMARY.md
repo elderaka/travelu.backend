@@ -22,6 +22,7 @@
   * [Waiting Payment](fitur-website-travel-u/pengecekan-jadwal/waiting-payment.md)
   * [Payment Success](fitur-website-travel-u/pengecekan-jadwal/payment-success.md)
   * [Payment Failed](fitur-website-travel-u/pengecekan-jadwal/payment-failed.md)
+* [Itinerary](fitur-website-travel-u/itinerary.md)
 * [Feedback](fitur-website-travel-u/feedback.md)
 * [Images & media](fitur-website-travel-u/images-and-media/README.md)
   * [Interactive blocks](fitur-website-travel-u/images-and-media/interactive-blocks.md)
